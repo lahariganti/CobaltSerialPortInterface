@@ -1,0 +1,40 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug CobaltSerialPortInterface",
+			"program": "${workspaceFolder:CobaltSerialPortInterface}/.build/debug/CobaltSerialPortInterface",
+			"args": [],
+			"cwd": "${workspaceFolder:CobaltSerialPortInterface}",
+			"preLaunchTask": "swift: Build Debug CobaltSerialPortInterface"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Release CobaltSerialPortInterface",
+			"program": "${workspaceFolder:CobaltSerialPortInterface}/.build/release/CobaltSerialPortInterface",
+			"args": [],
+			"cwd": "${workspaceFolder:CobaltSerialPortInterface}",
+			"preLaunchTask": "swift: Build Release CobaltSerialPortInterface"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug CobaltSPI",
+			"program": "${workspaceFolder:CobaltSPI}/.build/debug/CobaltSPI",
+			"args": [],
+			"cwd": "${workspaceFolder:CobaltSPI}",
+			"preLaunchTask": "swift: Build Debug CobaltSPI"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Release CobaltSPI",
+			"program": "${workspaceFolder:CobaltSPI}/.build/release/CobaltSPI",
+			"args": [],
+			"cwd": "${workspaceFolder:CobaltSPI}",
+			"preLaunchTask": "swift: Build Release CobaltSPI"
+		}
+	]
+}
